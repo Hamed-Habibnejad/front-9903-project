@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamed Habibnejad:Front_9903 </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./plugin/fa/css/font-awesome.min.css">
+    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <section class="logo">
+            <img src="./img/logo.png" alt="logo">
+            <h1>TREEHOUSE</h1>
+        </section>
+        <section class="menu">
+            <ul>
+                <li><a href="https://google.com">Home</a></li>
+                <li><a href="https://google.com">About</a></li>
+                <li><a href="https://google.com">Blog</a></li>
+                <li><a href="https://google.com">Portfolio</a></li>
+                <li><a href="https://google.com">Contact</a></li>
+            </ul>
+        </section>
+        <div class="clearfix"></div>
+    </div>
+</header>
+
+
+
+<div class="container">
+
+    <section class="slider">
+        <ul>
+            <li class="active">
+                <div class="image-box">
+                    <img src="./img/Slider one.jpg" alt="Slider one">
+                    <div class="title">
+                        <p class="p1">Creative Digital<br>Solutions</p>
+                        <p class="p2">Proin iaculis purus consequat sem cure.</p>
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="image-box">
+                    <img src="./img/Slider two.jpg" alt="Slider two">
+                    <div class="title2">
+                        <p class="p3">Professional Services</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="button">
+            <a href="https://google.com"><button>View Portfolio</button></a>
+        </div>
+
+        <div class="control-box">
+            <div class="next">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="prev">
+                <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <script>
+            var $Selector = {
+                slider: $('.slider'),
+                next: $('.next'),
+                prev: $('.prev')
+            };
+
+            $Selector.next.on('click', function(){
+                next();
+            });
+
+            $Selector.prev.on('click', function(){
+                prev();
+            });
+        </script>
+    </section>
+
+    <section class="services">
+        <h2>Professional Services</h2>
+        <p class="p1">Proin iaculis purus consequat sem cure</p>
+
+        <ul class="services-list">
+            <li>
+                <i class="heart-icon fa fa-heart-o fa-3x"></i>
+                <div><h3>Beautiful designs</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li>
+                <i class="mobile-icon fa fa-mobile fa-4x"></i>
+               <div><h3>Responsive web</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li>
+                <i class="graph-icon fa fa-line-chart fa-3x"></i>
+                <div><h3>Marketing tools</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="relax">
+        <div class="gear">
+            <div id="gear" ><i class="fa fa-cog fa-5x"></i></div>
+        </div>
+        <div class="relax_right">
+            <img src="./img/relax.jpg" alt="relax">
+            <div class="relax_content">
+                <h2>Just relax <span style="color: #7cc576">&amp;</span><br>let us do the heavy lifting</h2>
+                <div class="p1">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</div>
+
+                <ul class="relax-list">
+                    <li><i class="fa fa-check-circle-o"></i><span class="list">Initial Setup &amp; Customizations</span></li>
+                    <li><i class="fa fa-check-circle-o"></i><span class="list">Regular Updates</span></li>
+                    <li><i class="fa fa-check-circle-o"></i><span class="list">Round The Clock Support</span></li>
+                </ul>
+
+                <div class="button">
+                    <a href="https://google.com"><button>Learn more</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="project">
+        <h2>latest project</h2>
+        <p class="p1">Proin iaculis purus consequat sem cure</p>
+
+        <section class="latest-project">
+            <div id="latest-project">
+                <div class="content">
+                    <h3>Developing a framework</h3>
+                    <p class="p2">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                    <ul class="project-list">
+                        <li>
+                            <div class="basket "><i class="fa fa-shopping-basket"></i></div>
+                            <div class="content-list"><p class="h">E-Commerce Ready</p><p class="p3">Proin iaculis purus consequat sem cure  digni ssim.</p></div>
+                        </li>
+                        <div class="clearfix"></div>
+
+                        <li>
+                            <div class="laptop"><i class="fa fa-laptop"></i></div>
+                            <div class="content-list"><p class="h">Powerful SEO Features</p><p class="p3">Proin iaculis purus consequat sem cure.</p></div>
+                        </li>
+                        <div class="clearfix"></div>
+
+                        <li>
+                            <div><i class="locked fa fa-lock"></i></div>
+                            <div class="content-list"><p class="h">Secure Encryption</p><p class="p3">Proin iaculis purus consequat sem cure iaculis purus.</p></div>
+                        </li>
+                        <div class="clearfix"></div>
+
+                    </ul>
+                    <p class="p4">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in.</p>
+                    <a class="view-details" href="https://google.com">View Details<i class="fa fa-long-arrow-right"></i></a>
+                </div>
+
+            </div>
+            <div class="tablet"><img src="./img/tablet.png" alt="iPad"></div>
+        </section>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="culture-values">
+        <h2>culture &amp; Values</h2>
+        <p class="p1">Proin iaculis purus consequat cure.</p>
+
+        <ul class="culture-values-list">
+            <li>
+                <i class="music-icon fa fa-music fa-3x"></i>
+                <div><h3>Work-Life Balance</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li>
+                <i class="chart-icon fa fa-bar-chart fa-4x"></i>
+                <div><h3>Quality Over Quantity</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+            <li>
+                <i class="star-icon fa fa-star-o fa-3x"></i>
+                <div><h3>Deliver Excellence</h3></div>
+                <p class="p2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="clients">
+        <h2>our awesome clients</h2>
+        <p class="p1">Proin iaculis purus consequat sem cure.</p>
+
+        <section id="clients">
+                <div class="clients-list">
+                        <li>
+                            <div class="top_photo"><img src="./img/photo_top.jpg" alt="top_photo"></div>
+                            <div class="content-list1"><p class="quote">&ldquo;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&rdquo;</p><p class="whom-quoted">&ndash; Jamie Richardson, Founder of Cocoa Media</p></div>
+                        </li>
+                        <div class="clearfix"></div>
+
+                        <li>
+                            <div class="bottom_photo"><img src="./img/photo_bottom.jpg" alt="bottom_photo"></div>
+                            <div class="content-list2"><p class="quote">&ldquo;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&rdquo;</p><p class="whom-quoted">&ndash; Kim Thompson, Founder of Rainel</p></div>
+                        </li>
+                        <div class="clearfix"></div>
+                </div>
+
+        </section>
+    </section>
+
+    <section class="next-project">
+            <h2>ready to talk about your next project?</h2>
+            <a href="https://google.com"><button>Contact us</button></a>
+    </section>
+
+    <section class="logos" >
+        <ul>
+            <a href="https://envato.com"><li class="envato"><img src="./img/envato.png" alt="envato"></li></a>
+            <a href="https://wordpress.org"><li class="wordpress"><img src="./img/wordpress.png" alt="wordpress"></li></a>
+            <a href="https://tutsplus.com"><li class="tuts_plus"><img src="./img/tuts_plus.png" alt="tuts_plus"></li></a>
+            <a href="https://google.com"><li class="microlancer"><img src="./img/microlancer.png" alt="microlancer"></li></a>
+        </ul>
+    </section>
+
+    <section class="first-footer">
+        <div class="content">
+            <div class="contact-us">
+                <h3>Contact Us</h3>
+
+                <ul class="contact-us-list">
+                    <li><div><i class="location-icon fa fa-map-marker"></i></div><span>55 Main St.<br>Toronto, ON<br>M1H 3A5</span></li>
+                    <div class="clearfix"></div>
+                    <li id="phone-icon"><div><i class="phone-icon fa fa-mobile"></i></div><span>(416) 555-5252</span></li>
+                    <div class="clearfix"></div>
+                    <li id="email-icon"><div><i class="email-icon fa fa fa-envelope"></i></div><span>hello@treehouse.com</span></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+
+            <div class="latest-posts">
+                <h3>Latest Posts</h3>
+
+                <ul class="latest-posts-list">
+                    <li><a href="https://google.com"><div><i class="news-icon fa fa-newspaper-o"></i></div><span>Made With Love In Toronto</span></a></li>
+                    <div class="clearfix"></div>
+                    <li><a href="https://google.com"><div><i class="photo-icon fa fa-picture-o"></i></div><span>Startup News &amp; Emerging Tech</span></a></li>
+                    <div class="clearfix"></div>
+                    <li><a href="https://google.com"><div><i class="news-icon fa fa-newspaper-o"></i></div><span>Bitcoin Will Soon Rule The World</span></a></li>
+                    <div class="clearfix"></div>
+                    <li><a href="https://google.com"><div><i class="news-icon fa fa-newspaper-o"></i></div><span>Wearable Technology On The Rise</span></a></li>
+                    <div class="clearfix"></div>
+                    <li><a href="https://google.com"><div><i class="media-icon fa fa-play"></i></div><span>Learn Web Design In 30 Days!</span></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+
+            <div class="latest-tweets">
+                <h3>Latest Tweets</h3>
+
+                <ul class="latest-tweets-list">
+                    <li>
+                        <a href="https://google.com">
+                            <div class="icon-tweet"><i class="tweet-icon fa fa-twitter"></i></div>
+                            <div class="text-tweet"><span class="tweet_text">Confucius: Life is really simple, but we insist on making it complicated.</span>
+                            <div class="clearfix"></div>
+                            <span class="hash_tags">#famousquotes</span>
+                            <div class="clearfix"></div>
+                            <span class="when">8 mins ago</span></div>
+                            <div class="clearfix"></div>
+                        </a>
+                        <div class="clearfix"></div>
+                    </li>
+                    <div class="clearfix"></div>
+                    <li>
+                        <a href="https://google.com">
+                            <div class="icon-tweet"><i class="tweet-icon fa fa-twitter"></i></div>
+                            <div class="text-tweet"><span class="tweet_text">Grab the Free Treehouse web template at FreebiesXpress!</span>
+                            <div class="clearfix"></div>
+                            <span class="hash_tags">#freebies #templates</span>
+                            <div class="clearfix"></div>
+                            <span class="when">2 days ago</span></div>
+                            <div class="clearfix"></div>
+                        </a>
+                        <div class="clearfix"></div>
+                    </li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <footer class="bottom-footer">
+        <span class="copyright"><i class="copyright-icon fa fa-copyright"></i> Copyright 2014 FreebiesXpress.com</span>
+
+        <ul class="social-list">
+            <li id="twitter-icon"><i class="fa fa-twitter"></i></li>
+            <li id="facebook-icon"><i class="fa fa-facebook"></i></li>
+            <li id="pinterest-icon"><i class="fa fa-pinterest-p"></i></li>
+            <li id="google_plus-icon"><i class="fa fa-google-plus"></i></li>
+        </ul>
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
